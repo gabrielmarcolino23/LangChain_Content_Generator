@@ -1,6 +1,6 @@
 import streamlit as st
-from ..applications.post_app import LinkedInPostGenerator
-from ..applications.db_app import DBApplication
+from ..applications.linkedin_post import LinkedInPostGenerator
+from ..applications.db_linkedin import DBApplication
 
 class StreamlitController:
     def __init__(self):

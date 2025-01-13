@@ -1,6 +1,6 @@
 from typing import List, Dict
-from ..db.inspiration_db import InspirationDB
-from ..db.generated_db import GeneratedDB
+from ..db.linkedin_inspiration_db import InspirationDB
+from ..db.linkedin_db import GeneratedDB
 
 class DBApplication:
     def __init__(self):

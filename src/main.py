@@ -1,5 +1,5 @@
 import uvicorn
-from controllers.api_controller import app
+from controllers.linkedin_controller import app
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)

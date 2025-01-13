@@ -1,8 +1,8 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List, Dict
-from ..applications.post_app import LinkedInPostGenerator
-from ..applications.db_app import DBApplication
+from ..applications.linkedin_post import LinkedInPostGenerator
+from ..applications.db_linkedin import DBApplication
 
 app = FastAPI()
 post_generator = LinkedInPostGenerator()

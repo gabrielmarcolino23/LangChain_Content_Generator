@@ -1,4 +1,4 @@
-from controllers.streamlit_ctrl import StreamlitController
+from controllers.streamlit_controller import StreamlitController
 
 def main():
     controller = StreamlitController()
